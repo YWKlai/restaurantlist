@@ -35,20 +35,6 @@ npm run dev
 - Search for specific restaurants by name or category.
 
 
-## Folder Structure
-restaurant-list/
-├── app.js
-├── package.json
-├── restaurant.json
-├── .gitignore
-├── public/
-├── views/
-│   ├── index.handlebars
-│   ├── show.handlebars
-│   └── layouts/
-│       └── main.handlebars
-
-
 ## Development Environment
 - Node.js v14.17.0
 - Express v4.17.1
