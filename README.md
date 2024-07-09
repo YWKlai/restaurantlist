@@ -1,41 +1,41 @@
-# 餐廳清單應用程式
-這是一個使用 Express.js 和 Handlebars 打造的簡單餐廳清單應用程式，可以顯示餐廳清單、查看詳細資訊，以及搜尋餐廳。
+Restaurant List Application
+This is a simple restaurant list application built using Express.js and Handlebars. It allows you to display a list of restaurants, view detailed information, and search for restaurants.
 
 
-## 環境建置與需求 (Prerequisites)
-請確保你已經安裝以下軟體與套件：
+## Prerequisites
+Please ensure you have installed the following software and packages:
 - Node.js v14.17.0
 - npm v6.14.13
 
 
-## 安裝與執行步驟 (Installation and Execution)
-請依照以下步驟來安裝和執行此專案：
-1. 下載此專案到你的本地端
+## Installation and Execution
+Please follow the steps below to install and run this project:
+1. Clone this project to your local machine:
 ```
 git clone https://github.com/YWKlai/restaurantlist
 ```
-2. 進入專案目錄
+2. Navigate to the project directory:
 ```
 cd restaurant-list
 ```
-3. 安裝必要的套件
+3. Install the necessary packages:
 ```
 npm install
 ```
-4. 啟動伺服器
+4. Start the server:
 ```
 npm run dev
 ```
-5. 在瀏覽器中打開 http://localhost:3000，即可使用此應用程式。
+5. Open your browser and go to http://localhost:3000 to use the application.
 
 
-## 功能描述 (Features)
-- 在首頁顯示所有餐廳的簡單資料（包括餐廳照片、名稱、分類和評分）。
-- 點擊餐廳可以查看詳細資訊（包括類別、地址、電話、描述和圖片）。
-- 可以透過搜尋餐廳名稱或類別來找到特定的餐廳。
+## Features
+- Display basic information of all restaurants on the homepage (including restaurant photo, name, category, and rating).
+- Click on a restaurant to view detailed information (including category, address, phone, description, and image).
+- Search for specific restaurants by name or category.
 
 
-## 資料夾結構
+## Folder Structure
 restaurant-list/
 ├── app.js
 ├── package.json
@@ -49,7 +49,7 @@ restaurant-list/
 │       └── main.handlebars
 
 
-## 開發環境
+## Development Environment
 - Node.js v14.17.0
 - Express v4.17.1
 - Express-handlebars v5.3.2
