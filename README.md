@@ -1,4 +1,4 @@
-Restaurant List Application
+# Restaurant List Application
 This is a simple restaurant list application built using Express.js and Handlebars. It allows you to display a list of restaurants, view detailed information, and search for restaurants.
 
 
