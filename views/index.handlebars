@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>餐廳清單</title>
+</head>
+
+<body>
+    <h1>餐廳清單</h1>
+    <form action="/search" method="GET">
+        <input type="text" name="keyword" placeholder="搜尋餐廳名稱或類別">
+        <button type="submit">搜尋</button>
+    </form>
+    <div>
+        {{#each restaurants}}
+        <div>
+            <img src="{{this.image}}" alt="{{this.name}}">
+            <h2>{{this.name}}</h2>
+            <p>{{this.category}}</p>
+            <p>{{this.rating}}</p>
+            <a href="/restaurants/{{this.id}}">查看詳情</a>
+        </div>
+        {{/each}}
+    </div>
+</body>
+
+</html>
