@@ -38,5 +38,5 @@ npm run dev
 ## Development Environment
 - Node.js v14.17.0
 - Express v4.17.1
-- Express-handlebars v5.3.2
+- Express-handlebars v3.0.0
 - Body-parser v1.19.0
