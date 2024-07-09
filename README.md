@@ -12,7 +12,7 @@ Please ensure you have installed the following software and packages:
 Please follow the steps below to install and run this project:
 1. Clone this project to your local machine:
 ```
-git clone https://github.com/YWKlai/restaurantlist
+git clone https://github.com/YWKlai/restaurantlist.git
 ```
 2. Navigate to the project directory:
 ```
